@@ -1,0 +1,262 @@
+{
+ "soybean": [
+  {
+   "id": "soy_ymv",
+   "name": "Yellow mosaic virus",
+   "type": "disease",
+   "symptoms": "Bright yellow patches on young leaves, leaves smaller and stunted plants.",
+   "favours": "Whitefly spread the virus, more in warm humid spells.",
+   "actions": [
+    "Pull out and destroy infected plants early so they do not spread the virus.",
+    "Reduce whiteflies: use yellow sticky traps and keep field edges weed free.",
+    "Next season choose a variety recommended locally as resistant.",
+    "Use only products registered for this crop and follow the label. Ask your Taluka Agriculture Officer or Krishi Vigyan Kendra (KVK) before spraying."
+   ],
+   "severity": "high"
+  },
+  {
+   "id": "soy_caterpillar",
+   "name": "Leaf-eating caterpillars (semilooper or Spodoptera)",
+   "type": "pest",
+   "symptoms": "Ragged holes in leaves, green caterpillars or egg clusters on leaf undersides.",
+   "favours": "Warm humid weather after early rains.",
+   "actions": [
+    "Walk the field and hand-pick egg clusters and young larvae where few.",
+    "Use pheromone traps to track moths.",
+    "If damage is spreading, get a spray recommendation from your agriculture officer.",
+    "Use only products registered for this crop and follow the label. Ask your Taluka Agriculture Officer or Krishi Vigyan Kendra (KVK) before spraying."
+   ],
+   "severity": "moderate"
+  },
+  {
+   "id": "soy_frogeye",
+   "name": "Frogeye leaf spot (fungal)",
+   "type": "disease",
+   "symptoms": "Round brown spots with grey centres and dark edges on leaves.",
+   "favours": "Long humid, rainy spells.",
+   "actions": [
+    "Improve air flow and avoid working in the field when leaves are wet.",
+    "Remove badly infected leaves and plants.",
+    "Use clean seed and rotate crops next season.",
+    "Use only products registered for this crop and follow the label. Ask your Taluka Agriculture Officer or Krishi Vigyan Kendra (KVK) before spraying."
+   ],
+   "severity": "moderate"
+  }
+ ],
+ "cotton": [
+  {
+   "id": "cot_pbw",
+   "name": "Pink bollworm",
+   "type": "pest",
+   "symptoms": "Rosette-shaped flowers, small holes in bolls, pink larvae inside.",
+   "favours": "Warm weather and continuous cotton planting.",
+   "actions": [
+    "Install pheromone traps and count moths every week.",
+    "Collect and destroy damaged squares and bolls.",
+    "Do not leave crop residue in the field after picking.",
+    "Use only products registered for this crop and follow the label. Ask your Taluka Agriculture Officer or Krishi Vigyan Kendra (KVK) before spraying."
+   ],
+   "severity": "high"
+  },
+  {
+   "id": "cot_wf",
+   "name": "Whitefly and leaf curl virus",
+   "type": "pest",
+   "symptoms": "Leaves curl upwards and thicken, sticky leaves, white flies under leaves.",
+   "favours": "Hot dry spells and weedy field edges.",
+   "actions": [
+    "Use yellow sticky traps and remove weed hosts.",
+    "Remove severely curled plants early.",
+    "Avoid over-use of nitrogen, which attracts sucking pests.",
+    "Use only products registered for this crop and follow the label. Ask your Taluka Agriculture Officer or Krishi Vigyan Kendra (KVK) before spraying."
+   ],
+   "severity": "high"
+  },
+  {
+   "id": "cot_jassid",
+   "name": "Jassids (sucking pests)",
+   "type": "pest",
+   "symptoms": "Leaf edges turn yellow-red and curl downward, small green insects under leaves.",
+   "favours": "Dry weather after early growth.",
+   "actions": [
+    "Scout 20 plants across the field and count insects per leaf.",
+    "Keep the field weed free and avoid excess nitrogen.",
+    "Spray only if the count passes the local threshold.",
+    "Use only products registered for this crop and follow the label. Ask your Taluka Agriculture Officer or Krishi Vigyan Kendra (KVK) before spraying."
+   ],
+   "severity": "moderate"
+  }
+ ],
+ "wheat": [
+  {
+   "id": "wht_rust",
+   "name": "Yellow (stripe) rust",
+   "type": "disease",
+   "symptoms": "Yellow powdery stripes along the leaf veins.",
+   "favours": "Cool, humid weather with dew or light rain.",
+   "actions": [
+    "Check leaves in the morning and report early to your agriculture officer.",
+    "Do not delay: rust spreads fast in cool humid weather.",
+    "Next season use rust-resistant varieties.",
+    "Use only products registered for this crop and follow the label. Ask your Taluka Agriculture Officer or Krishi Vigyan Kendra (KVK) before spraying."
+   ],
+   "severity": "high"
+  },
+  {
+   "id": "wht_pm",
+   "name": "Powdery mildew",
+   "type": "disease",
+   "symptoms": "White powdery patches on leaves and stems.",
+   "favours": "Cool humid weather and dense crop.",
+   "actions": [
+    "Avoid excess nitrogen and very dense sowing.",
+    "Improve air flow where possible.",
+    "Use only products registered for this crop and follow the label. Ask your Taluka Agriculture Officer or Krishi Vigyan Kendra (KVK) before spraying."
+   ],
+   "severity": "moderate"
+  },
+  {
+   "id": "wht_aphid",
+   "name": "Aphids",
+   "type": "pest",
+   "symptoms": "Clusters of small green or black insects on leaves and ears, sticky leaves.",
+   "favours": "Cool cloudy weather.",
+   "actions": [
+    "Check 10 tillers in 5 places and count aphids.",
+    "Natural enemies like ladybird beetles often control light attacks.",
+    "Spray only if numbers are high, as advised locally.",
+    "Use only products registered for this crop and follow the label. Ask your Taluka Agriculture Officer or Krishi Vigyan Kendra (KVK) before spraying."
+   ],
+   "severity": "moderate"
+  }
+ ],
+ "rice": [
+  {
+   "id": "ric_blast",
+   "name": "Rice blast",
+   "type": "disease",
+   "symptoms": "Diamond-shaped spots with grey centres on leaves, broken necks on panicles.",
+   "favours": "Cloudy humid weather, heavy nitrogen use.",
+   "actions": [
+    "Avoid applying too much nitrogen at once.",
+    "Drain and refill with fresh water, and keep the field weed free.",
+    "Check leaves early and report spread to your agriculture officer.",
+    "Use only products registered for this crop and follow the label. Ask your Taluka Agriculture Officer or Krishi Vigyan Kendra (KVK) before spraying."
+   ],
+   "severity": "high"
+  },
+  {
+   "id": "ric_blb",
+   "name": "Bacterial leaf blight",
+   "type": "disease",
+   "symptoms": "Yellow to white stripes starting at leaf tips, leaves dry out.",
+   "favours": "Heavy rain, strong wind and flooding.",
+   "actions": [
+    "Drain the field and avoid excess nitrogen.",
+    "Do not move water from infected to healthy plots.",
+    "Use disease-free seed next season.",
+    "Use only products registered for this crop and follow the label. Ask your Taluka Agriculture Officer or Krishi Vigyan Kendra (KVK) before spraying."
+   ],
+   "severity": "high"
+  },
+  {
+   "id": "ric_stemborer",
+   "name": "Stem borer",
+   "type": "pest",
+   "symptoms": "Dead hearts in young plants and white empty panicles later.",
+   "favours": "Warm humid weather.",
+   "actions": [
+    "Install pheromone traps and count moths.",
+    "Pull out and destroy dead hearts early.",
+    "Use only products registered for this crop and follow the label. Ask your Taluka Agriculture Officer or Krishi Vigyan Kendra (KVK) before spraying."
+   ],
+   "severity": "moderate"
+  }
+ ],
+ "maize": [
+  {
+   "id": "mai_faw",
+   "name": "Fall armyworm",
+   "type": "pest",
+   "symptoms": "Ragged leaf holes and sawdust-like droppings in the whorl, larvae inside.",
+   "favours": "Warm weather in early crop stages.",
+   "actions": [
+    "Check 20 plants in a zig-zag and note the share with fresh damage.",
+    "Hand-pick egg masses and young larvae where numbers are small.",
+    "Act early: damage is hardest to control once larvae are large.",
+    "Use only products registered for this crop and follow the label. Ask your Taluka Agriculture Officer or Krishi Vigyan Kendra (KVK) before spraying."
+   ],
+   "severity": "high"
+  },
+  {
+   "id": "mai_nclb",
+   "name": "Northern leaf blight",
+   "type": "disease",
+   "symptoms": "Long grey-green cigar-shaped spots on leaves.",
+   "favours": "Moderate temperatures and long humid, dewy spells.",
+   "actions": [
+    "Rotate crops and remove residue after harvest.",
+    "Improve air flow and avoid late-evening irrigation.",
+    "Use only products registered for this crop and follow the label. Ask your Taluka Agriculture Officer or Krishi Vigyan Kendra (KVK) before spraying."
+   ],
+   "severity": "moderate"
+  },
+  {
+   "id": "mai_rust",
+   "name": "Common rust",
+   "type": "disease",
+   "symptoms": "Small brick-red pustules on both leaf sides.",
+   "favours": "Cool humid weather.",
+   "actions": [
+    "Check leaves weekly during humid spells.",
+    "Use tolerant hybrids next season.",
+    "Use only products registered for this crop and follow the label. Ask your Taluka Agriculture Officer or Krishi Vigyan Kendra (KVK) before spraying."
+   ],
+   "severity": "moderate"
+  }
+ ],
+ "tomato": [
+  {
+   "id": "tom_eb",
+   "name": "Early blight",
+   "type": "disease",
+   "symptoms": "Dark brown spots with ring patterns on older leaves, yellowing around spots.",
+   "favours": "Warm humid weather and wet leaves.",
+   "actions": [
+    "Remove infected lower leaves and burn or bury them.",
+    "Water at the base and avoid wetting leaves.",
+    "Mulch to stop soil splash and rotate crops.",
+    "Use only products registered for this crop and follow the label. Ask your Taluka Agriculture Officer or Krishi Vigyan Kendra (KVK) before spraying."
+   ],
+   "severity": "moderate"
+  },
+  {
+   "id": "tom_lb",
+   "name": "Late blight",
+   "type": "disease",
+   "symptoms": "Large water-soaked dark patches on leaves, white fuzz underneath, firm brown fruit rot.",
+   "favours": "Cool, wet, foggy weather.",
+   "actions": [
+    "Act fast: remove and destroy infected plants and fruit.",
+    "Avoid overhead watering and improve air flow.",
+    "Report spread early to your agriculture officer.",
+    "Use only products registered for this crop and follow the label. Ask your Taluka Agriculture Officer or Krishi Vigyan Kendra (KVK) before spraying."
+   ],
+   "severity": "high"
+  },
+  {
+   "id": "tom_tolcv",
+   "name": "Tomato leaf curl virus",
+   "type": "disease",
+   "symptoms": "Leaves curl upward and shrink, plants stunted, few fruits.",
+   "favours": "Whitefly spread, mostly in warm dry weather.",
+   "actions": [
+    "Remove infected plants early.",
+    "Use yellow sticky traps and insect-proof nursery nets.",
+    "Control weeds around the field.",
+    "Use only products registered for this crop and follow the label. Ask your Taluka Agriculture Officer or Krishi Vigyan Kendra (KVK) before spraying."
+   ],
+   "severity": "high"
+  }
+ ]
+}

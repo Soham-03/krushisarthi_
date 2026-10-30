@@ -1,0 +1,40 @@
+// UI words in English, Hindi and Marathi. Alert texts and AI answers follow the chosen language
+// only when the AI key is set (the assistant replies in the selected language).
+const D = {
+  home: ["Home", "होम", "मुख्यपृष्ठ"],
+  checkup: ["Checkup", "साप्ताहिक जांच", "साप्ताहिक तपासणी"],
+  assistant: ["Assistant", "सहायक", "सहाय्यक"],
+  alerts: ["Alerts", "अलर्ट", "सूचना"],
+  farms: ["Farms", "खेत", "शेत"],
+  health: ["Crop health", "फसल स्वास्थ्य", "पिकाचे आरोग्य"],
+  weather: ["Weather", "मौसम", "हवामान"],
+  soil: ["Soil", "मिट्टी", "माती"],
+  forecast: ["Forecast", "पूर्वानुमान", "अंदाज"],
+  scan_leaf: ["Scan a leaf", "पत्ती जांचें", "पान तपासा"],
+  ask_ai: ["Ask AI", "AI से पूछें", "AI ला विचारा"],
+  weekly_checkup: ["Weekly checkup", "साप्ताहिक जांच", "साप्ताहिक तपासणी"],
+  add_farm: ["Add farm", "खेत जोड़ें", "शेत जोडा"],
+  first_farm: ["Add your first farm", "अपना पहला खेत जोड़ें", "तुमचे पहिले शेत जोडा"],
+  save: ["Save", "सहेजें", "जतन करा"],
+  cancel: ["Cancel", "रद्द करें", "रद्द करा"],
+  start_checkup: ["Start this week's checkup", "इस हफ्ते की जांच शुरू करें", "या आठवड्याची तपासणी सुरू करा"],
+  finish_checkup: ["Finish checkup", "जांच पूरी करें", "तपासणी पूर्ण करा"],
+  causes: ["Likely causes", "संभावित कारण", "संभाव्य कारणे"],
+  what_to_do: ["What to do", "क्या करें", "काय करावे"],
+  notifications: ["Notifications", "सूचनाएं", "सूचना"],
+  tips: ["Tips for this week", "इस हफ्ते के सुझाव", "या आठवड्याचे सल्ले"],
+  type_message: ["Type your question…", "अपना सवाल लिखें…", "तुमचा प्रश्न लिहा…"],
+  growth_chart: ["Growth vs expected", "वृद्धि बनाम अपेक्षित", "वाढ आणि अपेक्षित"],
+  language: ["Language", "भाषा", "भाषा"],
+  sowing_date: ["Sowing date", "बुवाई की तारीख", "पेरणीची तारीख"],
+  crop: ["Crop", "फसल", "पीक"],
+  farm_name: ["Farm name", "खेत का नाम", "शेताचे नाव"],
+  today: ["Today", "आज", "आज"],
+  photos_taken: ["photos taken", "फोटो लिए गए", "फोटो घेतले"],
+  status_normal: ["Growing well", "अच्छी बढ़वार", "चांगली वाढ"],
+  status_watch: ["Needs a look", "ध्यान दें", "लक्ष ठेवा"],
+  status_abnormal: ["Growth is low", "बढ़वार कम है", "वाढ कमी आहे"],
+};
+const IDX = { en: 0, hi: 1, mr: 2 };
+export const LANGS = [{ code: "en", label: "English", short: "EN", speech: "en-IN" }, { code: "hi", label: "हिन्दी", short: "हि", speech: "hi-IN" }, { code: "mr", label: "मराठी", short: "म", speech: "mr-IN" }];
+export const makeT = (lang) => (key) => (D[key] ? D[key][IDX[lang] ?? 0] : key);

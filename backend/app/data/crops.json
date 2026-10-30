@@ -1,0 +1,482 @@
+{
+ "soybean": {
+  "name": "Soybean",
+  "hi": "सोयाबीन",
+  "mr": "सोयाबीन",
+  "season": "Kharif",
+  "duration": 105,
+  "curve": [
+   [
+    0,
+    0.1
+   ],
+   [
+    10,
+    0.16
+   ],
+   [
+    20,
+    0.28
+   ],
+   [
+    35,
+    0.5
+   ],
+   [
+    50,
+    0.68
+   ],
+   [
+    65,
+    0.8
+   ],
+   [
+    80,
+    0.76
+   ],
+   [
+    95,
+    0.5
+   ],
+   [
+    105,
+    0.3
+   ]
+  ],
+  "heat_c": 36,
+  "cold_c": 10,
+  "sensitive": [
+   "Flowering",
+   "Pod filling"
+  ],
+  "stages": [
+   {
+    "name": "Germination",
+    "from": 0,
+    "to": 10,
+    "tip": "Keep soil moist but not waterlogged so seedlings come up evenly."
+   },
+   {
+    "name": "Vegetative",
+    "from": 10,
+    "to": 35,
+    "tip": "Weed early and scout for leaf-eating caterpillars and yellow patches."
+   },
+   {
+    "name": "Flowering",
+    "from": 35,
+    "to": 60,
+    "tip": "Water stress now cuts yield. Irrigate if dry and scout for pests every week."
+   },
+   {
+    "name": "Pod filling",
+    "from": 60,
+    "to": 90,
+    "tip": "Keep moisture even. Watch for pod pests and fungal leaf spots."
+   },
+   {
+    "name": "Maturity",
+    "from": 90,
+    "to": 105,
+    "tip": "Stop irrigation. Harvest when pods turn yellow-brown and rattle."
+   }
+  ]
+ },
+ "cotton": {
+  "name": "Cotton",
+  "hi": "कपास",
+  "mr": "कापूस",
+  "season": "Kharif",
+  "duration": 165,
+  "curve": [
+   [
+    0,
+    0.1
+   ],
+   [
+    20,
+    0.18
+   ],
+   [
+    40,
+    0.35
+   ],
+   [
+    60,
+    0.55
+   ],
+   [
+    80,
+    0.7
+   ],
+   [
+    100,
+    0.78
+   ],
+   [
+    120,
+    0.74
+   ],
+   [
+    140,
+    0.6
+   ],
+   [
+    165,
+    0.35
+   ]
+  ],
+  "heat_c": 40,
+  "cold_c": 12,
+  "sensitive": [
+   "Squaring and flowering",
+   "Boll development"
+  ],
+  "stages": [
+   {
+    "name": "Seedling",
+    "from": 0,
+    "to": 30,
+    "tip": "Protect young plants from sucking pests and keep fields weed free."
+   },
+   {
+    "name": "Vegetative",
+    "from": 30,
+    "to": 60,
+    "tip": "Scout for whitefly, jassids and aphids every week."
+   },
+   {
+    "name": "Squaring and flowering",
+    "from": 60,
+    "to": 100,
+    "tip": "Avoid water stress. Check squares and flowers for bollworm damage."
+   },
+   {
+    "name": "Boll development",
+    "from": 100,
+    "to": 140,
+    "tip": "Even moisture matters. Check bolls for pink bollworm."
+   },
+   {
+    "name": "Picking",
+    "from": 140,
+    "to": 165,
+    "tip": "Pick dry, clean cotton. Remove crop residue after the last picking."
+   }
+  ]
+ },
+ "wheat": {
+  "name": "Wheat",
+  "hi": "गेहूं",
+  "mr": "गहू",
+  "season": "Rabi",
+  "duration": 120,
+  "curve": [
+   [
+    0,
+    0.1
+   ],
+   [
+    15,
+    0.15
+   ],
+   [
+    30,
+    0.3
+   ],
+   [
+    50,
+    0.55
+   ],
+   [
+    70,
+    0.78
+   ],
+   [
+    85,
+    0.8
+   ],
+   [
+    100,
+    0.6
+   ],
+   [
+    120,
+    0.3
+   ]
+  ],
+  "heat_c": 34,
+  "cold_c": 2,
+  "sensitive": [
+   "Flowering",
+   "Grain filling"
+  ],
+  "stages": [
+   {
+    "name": "Tillering",
+    "from": 0,
+    "to": 45,
+    "tip": "Crown root stage is critical for irrigation. Follow the local advisory for timing."
+   },
+   {
+    "name": "Jointing",
+    "from": 45,
+    "to": 70,
+    "tip": "Check for rust and aphids. Apply nutrients as per your soil test."
+   },
+   {
+    "name": "Flowering",
+    "from": 70,
+    "to": 90,
+    "tip": "Heat and dry spells hurt grain set. Irrigate lightly if hot and dry."
+   },
+   {
+    "name": "Grain filling",
+    "from": 90,
+    "to": 110,
+    "tip": "Keep moisture even. Watch for rust and heat stress."
+   },
+   {
+    "name": "Maturity",
+    "from": 110,
+    "to": 120,
+    "tip": "Stop irrigation and plan harvest when grains harden."
+   }
+  ]
+ },
+ "rice": {
+  "name": "Rice (paddy)",
+  "hi": "धान",
+  "mr": "भात",
+  "season": "Kharif",
+  "duration": 125,
+  "curve": [
+   [
+    0,
+    0.12
+   ],
+   [
+    15,
+    0.22
+   ],
+   [
+    30,
+    0.42
+   ],
+   [
+    50,
+    0.68
+   ],
+   [
+    70,
+    0.8
+   ],
+   [
+    85,
+    0.78
+   ],
+   [
+    105,
+    0.55
+   ],
+   [
+    125,
+    0.3
+   ]
+  ],
+  "heat_c": 36,
+  "cold_c": 15,
+  "sensitive": [
+   "Panicle initiation",
+   "Flowering"
+  ],
+  "stages": [
+   {
+    "name": "Establishment",
+    "from": 0,
+    "to": 20,
+    "tip": "Keep a thin water layer. Check for yellow or stunted seedlings."
+   },
+   {
+    "name": "Tillering",
+    "from": 20,
+    "to": 55,
+    "tip": "Manage weeds and nitrogen as per soil test. Watch for stem borer."
+   },
+   {
+    "name": "Panicle initiation",
+    "from": 55,
+    "to": 80,
+    "tip": "Keep fields moist. Scout for blast and bacterial leaf blight."
+   },
+   {
+    "name": "Flowering",
+    "from": 80,
+    "to": 100,
+    "tip": "Avoid water stress and spraying during flowering hours."
+   },
+   {
+    "name": "Grain filling",
+    "from": 100,
+    "to": 125,
+    "tip": "Drain the field before harvest as advised locally."
+   }
+  ]
+ },
+ "maize": {
+  "name": "Maize",
+  "hi": "मक्का",
+  "mr": "मका",
+  "season": "Kharif",
+  "duration": 110,
+  "curve": [
+   [
+    0,
+    0.1
+   ],
+   [
+    15,
+    0.2
+   ],
+   [
+    30,
+    0.45
+   ],
+   [
+    45,
+    0.7
+   ],
+   [
+    60,
+    0.84
+   ],
+   [
+    80,
+    0.8
+   ],
+   [
+    95,
+    0.6
+   ],
+   [
+    110,
+    0.35
+   ]
+  ],
+  "heat_c": 38,
+  "cold_c": 8,
+  "sensitive": [
+   "Tasseling and silking"
+  ],
+  "stages": [
+   {
+    "name": "Emergence",
+    "from": 0,
+    "to": 15,
+    "tip": "Check stand count and fill gaps early."
+   },
+   {
+    "name": "Vegetative",
+    "from": 15,
+    "to": 50,
+    "tip": "Scout for fall armyworm in the whorl every few days."
+   },
+   {
+    "name": "Tasseling and silking",
+    "from": 50,
+    "to": 70,
+    "tip": "Water stress now causes poor grain set. Irrigate if dry."
+   },
+   {
+    "name": "Grain filling",
+    "from": 70,
+    "to": 95,
+    "tip": "Keep moisture even and watch for cob pests and leaf blight."
+   },
+   {
+    "name": "Maturity",
+    "from": 95,
+    "to": 110,
+    "tip": "Harvest when husks dry and grains harden."
+   }
+  ]
+ },
+ "tomato": {
+  "name": "Tomato",
+  "hi": "टमाटर",
+  "mr": "टोमॅटो",
+  "season": "All seasons",
+  "duration": 120,
+  "curve": [
+   [
+    0,
+    0.12
+   ],
+   [
+    15,
+    0.2
+   ],
+   [
+    30,
+    0.4
+   ],
+   [
+    50,
+    0.65
+   ],
+   [
+    70,
+    0.78
+   ],
+   [
+    90,
+    0.72
+   ],
+   [
+    105,
+    0.55
+   ],
+   [
+    120,
+    0.4
+   ]
+  ],
+  "heat_c": 35,
+  "cold_c": 10,
+  "sensitive": [
+   "Flowering and fruit set"
+  ],
+  "stages": [
+   {
+    "name": "Seedling",
+    "from": 0,
+    "to": 20,
+    "tip": "Harden seedlings and avoid waterlogging."
+   },
+   {
+    "name": "Vegetative",
+    "from": 20,
+    "to": 45,
+    "tip": "Stake plants and scout for whitefly and leaf curl signs."
+   },
+   {
+    "name": "Flowering and fruit set",
+    "from": 45,
+    "to": 75,
+    "tip": "Hot or very humid spells reduce fruit set and raise blight risk."
+   },
+   {
+    "name": "Fruiting",
+    "from": 75,
+    "to": 110,
+    "tip": "Keep leaves dry where possible. Watch for blight and fruit borer."
+   },
+   {
+    "name": "Harvest",
+    "from": 110,
+    "to": 120,
+    "tip": "Harvest regularly and remove diseased fruit and leaves."
+   }
+  ]
+ }
+}

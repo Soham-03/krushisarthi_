@@ -1,0 +1,17 @@
+[
+  {
+    "url": "https://REPLACE-WITH-A-REAL-OFFICIAL-LINK.example/cotton-ipm.pdf",
+    "title": "Integrated pest management for cotton",
+    "publisher": "Name of the university or department that published it",
+    "published": "2023-06-01",
+    "crops": ["cotton"],
+    "language": "en"
+  },
+  {
+    "path": "my-local-document.pdf",
+    "title": "Package of practices for soybean",
+    "publisher": "Name of the publisher",
+    "published": "2022",
+    "crops": ["soybean"]
+  }
+]
